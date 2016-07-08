@@ -10,9 +10,9 @@ Author URI: http://cimbura.com/
 
 if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-add_action( 'admin_menu', 'wporg_custom_admin_menu' );
+add_action( 'admin_menu', 'shortstats_custom_admin_menu' );
 
-function wporg_custom_admin_menu() {
+function shortstats_custom_admin_menu() {
     add_submenu_page(
     	'tools.php',
     	'Shortcode Stats',
